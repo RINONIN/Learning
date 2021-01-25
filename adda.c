@@ -7,5 +7,5 @@ int main()//主函数
   scanf("%d%d",&a,&b);
   sum=a+b;
   printf("sum=%d\n",sum);
-  return 0;
+  return 0;  
 }
