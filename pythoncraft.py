@@ -1,16 +1,15 @@
-def reverseWords(input):
-     
-    # 通过空格将字符串分隔符，把各个单词分隔为列表
-    inputWords = input.split(" ")
- 
-    inputWords=inputWords[-1::-1]
- 
-    # 重新组合字符串
-    output = ' '.join(inputWords)
-     
-    return output
- 
-if __name__ == "__main__":
-    input = 'I like runoob'
-    rw = reverseWords(input)
-    print(rw)
+students= {}
+write = 1
+while write :
+    name = str(input('输入名字:'))
+    grade = int(input('输入分数:'))
+    students[str(name)] = grade
+    write= int(input('继续输入？\n 1/继续  0/退出'))
+print('name  rate'.center(20,'-'))
+for key,value in students.items():
+    if value >= 90:
+        print('%s %s  A'.center(20,'-')%(key,value))
+    elif 89 > value >= 60 :
+        print('%s %s  B'.center(20,'-')%(key,value))
+    else:
+        print('%s %s  C'.center(20,'-')%(key,value))
