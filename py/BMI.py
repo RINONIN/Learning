@@ -20,3 +20,4 @@ if gender=='F':
     print('感谢',name,'女士在',nowtime,'使用本程序,祝您身体健康!')
 if gender=='M':
     print('感谢',name,'先生在',nowtime,'使用本程序,祝您身体健康!')
+    
