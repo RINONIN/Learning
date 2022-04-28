@@ -26,5 +26,6 @@
     "**/.*/**",
     "**/.vscode",
     "**/.vscode/**"
-  ]
+  ],
+  "jupyter.jupyterServerType": "remote"
 }
